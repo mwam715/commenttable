@@ -137,12 +137,7 @@
         <input type="hidden" name="renum"
          value="<?php if(isset($Renum)){echo $Renum;} ?>">
         <input type="submit" name="submit1"><br>
-        <td valign="top">
-        <input type="text" name="comment" placeholder="コメント"
-         style="width:350px; height:100px;"
-         
-         value="<?php if(isset($Recom)){echo $Recom;}?>">
-        </td> 
+       <textarea name="comment" placeholder="コメント" cols="30" rows="5"><?php if(isset($Recom)){echo $Recom;}?></textarea>
     </form>
 【削除】
     <form action="" method="post">
